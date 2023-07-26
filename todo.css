@@ -27,7 +27,7 @@
     border-radius: 10px;
     padding: 40px 30px 70px;
     border-radius: 10px;
-   background-image: url(./glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg);
+    background-image: url(./glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -68,7 +68,7 @@ button{
     border: none;
     outline: none;
     padding: 16px 50px;
-   border-radius: 40px;
+    border-radius: 40px;
     background: #ff5945;
     color: #fff;
     font-size: 16px;
@@ -121,4 +121,18 @@ ul li span
 }
 ul li span:hover{
     background: #edeef0;
+}
+
+@media only screen and (max-width :500px) 
+{
+    .row  
+    {
+        flex-wrap: wrap;
+    }
+    button{
+       padding: 10px;
+       margin: 10px 0;
+       width: 50px;
+        
+    }
 }
